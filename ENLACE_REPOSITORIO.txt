@@ -1,0 +1,11 @@
+EVIDENCIA GA7-220501096-AA2-EV02
+
+Proyecto: Sistema de gestión de citas médicas
+
+Repositorio GitHub:
+https://github.com/Luisavz1/CitasMedicas
+
+Tecnologías utilizadas: Java, Servlets, JSP, HTML, CSS, Maven, Apache Tomcat y Git.
+
+
+
