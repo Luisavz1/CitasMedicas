@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de citas médicas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Gestión de citas médicas</h1>
+        <p>Registra una nueva cita médica.</p>
+
+        <form action="CitaServlet" method="POST">
+            <label for="paciente">Nombre del paciente</label>
+            <input type="text" id="paciente" name="paciente"
+                   maxlength="100" required>
+
+            <label for="fecha">Fecha de la cita</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora de la cita</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="motivo">Motivo de la cita</label>
+            <textarea id="motivo" name="motivo"
+                      maxlength="500" required></textarea>
+
+            <button type="submit">Registrar cita</button>
+        </form>
+    </main>
+</body>
+</html>
